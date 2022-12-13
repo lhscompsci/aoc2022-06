@@ -14,11 +14,18 @@ public class Main {
 
     private static void partTwo() throws Throwable {
         Scanner infile = new Scanner(new File("test.dat"));
-        
+
     }
 
     private static void partOne() throws Throwable {
-        Scanner infile = new Scanner(new File("test.dat"));
+        Scanner infile = new Scanner(new File("basic.dat"));
+
+        while(infile.hasNext()) {
+            String blast = infile.next();
+            char[] burst = blast.toCharArray();
+
+
+        }
 
     }
 }
